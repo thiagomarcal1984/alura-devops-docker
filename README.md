@@ -24,3 +24,7 @@ Alguns exemplos fundamentais de namespaces são:
 - UTS (Unix Timesharing System Namespace): isolamento do kernel, permitindo que o container atue como se fosse outro host.
 
 Por sua vez, o gerenciamento dos recursos físicos compartilhados entre os processos fica sob responsabilidade de um recurso conhecido como Cgroups (grupos de controle). Os Cgroups permitem que o Docker aloque recursos como tempo da CPU, memória do sistema, largura de banda de rede ou combinações destes.
+
+## Verificando o Docker
+Execute o comando `docker run hello-world` de um shell/terminal. 
+> Daria pra usar o shell WSL do Windows para simular Linux, mas no meu Windows 11 isso não funcionou - recomendou o uso do Powershell.
